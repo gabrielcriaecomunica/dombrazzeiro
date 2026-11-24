@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #140F0C;
+  --color-roasted: #2A1A12;
+  --color-ember-red: #C2311A;
+  --color-fire-orange: #E8661E;
+  --color-amber-gold: #F2B33D;
+  --color-cream: #F5E6C8;
+  --color-cream-muted: #D8C4A4;
+  --color-wood: #7A4524;
+
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-label: "Oswald", sans-serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    background-color: #140F0C;
+    color: #F5E6C8;
+    font-family: var(--font-sans);
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    overflow-x: hidden;
+    background-color: #140F0C;
+  }
+
+  :focus-visible {
+    outline: 2px solid #F2B33D;
+    outline-offset: 3px;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-label {
+  font-family: var(--font-label);
+}
+
+/* Degradê oficial inspirado no letreiro "BRAZZEIRO" */
+.brand-gradient-text {
+  background: linear-gradient(92deg, #C2311A 0%, #E8661E 35%, #F2B33D 72%, #F5E6C8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.brand-gradient-bar {
+  background: linear-gradient(90deg, #C2311A 0%, #E8661E 45%, #F2B33D 82%, #F5E6C8 100%);
+}
+
+/* Textura sutil de fumaça e brasa */
+.smoke-surface {
+  background-image:
+    radial-gradient(ellipse 75% 50% at 50% 0%, rgba(194, 49, 26, 0.14), transparent 70%),
+    radial-gradient(ellipse 60% 45% at 85% 95%, rgba(232, 102, 30, 0.08), transparent 70%),
+    radial-gradient(circle at 15% 40%, rgba(122, 69, 36, 0.12), transparent 55%);
+}
+
+@keyframes emberPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(232, 102, 30, 0.45), 0 8px 28px -6px rgba(194, 49, 26, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 22px 4px rgba(242, 179, 61, 0.32), 0 10px 34px -4px rgba(232, 102, 30, 0.65);
+  }
+}
+
+.btn-ember-glow {
+  animation: emberPulse 3.4s ease-in-out infinite;
+}
+
+@keyframes slowEmberBreathe {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.72;
+    transform: scale(1.06);
+  }
+}
+
+.ember-breathe {
+  animation: slowEmberBreathe 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .btn-ember-glow,
+  .ember-breathe {
+    animation: none !important;
+  }
+}
