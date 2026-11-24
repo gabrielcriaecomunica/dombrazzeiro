@@ -66,8 +66,8 @@ export function HeroSection() {
           transition={{ duration: 0.65, delay: 0.14 }}
           className="font-display text-4xl leading-[1.08] text-[#F5E6C8] sm:text-6xl lg:text-7xl"
         >
-          O fogo é nosso.{' '}
-          <span className="brand-gradient-text block sm:inline">A festa é sua.</span>
+          O fogo é nosso.
+          <span className="brand-gradient-text mt-1 block">A festa é sua.</span>
         </motion.h1>
 
         <motion.p
