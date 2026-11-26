@@ -23,10 +23,10 @@ export function FogoDeChaoSection() {
           <div className="relative overflow-hidden rounded-2xl border border-[#7A4524]/55 bg-[#2A1A12] shadow-[0_24px_60px_rgba(0,0,0,0.65)] aspect-[4/3]">
             <motion.img
               style={prefersReducedMotion ? undefined : { y: imageY, scale: 1.1 }}
-              src="/assets/images/fogo-editorial.webp"
-              alt="Costela fogo de chão assando lentamente sobre brasas incandescentes"
-              width={1200}
-              height={900}
+              src="/assets/images/costela-fogo-de-chao.webp"
+              alt="Mestre churrasqueiro Jossel Freitas da Dom Brazzeiro puxando o osso de uma costela fogo de chão macia sobre tábua rústica de madeira"
+              width={1024}
+              height={682}
               loading="lazy"
               className="h-full w-full object-cover"
             />
