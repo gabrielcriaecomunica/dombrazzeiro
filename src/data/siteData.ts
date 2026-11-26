@@ -194,6 +194,7 @@ export interface GalleryPhoto {
   alt: string;
   caption: string;
   aspectClass: string;
+  objectClass?: string;
   /* Comentário de manutenção: substituir imagem placeholder em public/assets/images/ pela foto real do acervo Dom Brazzeiro */
 }
 
@@ -208,11 +209,11 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gal-2',
-    // Trocar por foto real de cortes fatiados na tábua
     src: '/assets/images/galeria-cortes.webp',
-    alt: 'Cortes nobres fatiados na tábua de madeira escura com sal grosso e brilho de brasa',
+    alt: 'Jossel Freitas preparando cortes selecionados na tábua rústica com braseiro aceso ao fundo',
     caption: 'Cortes selecionados servidos no ponto ideal',
     aspectClass: 'aspect-[4/3] lg:aspect-auto lg:h-full',
+    objectClass: 'object-[center_35%]',
   },
   {
     id: 'gal-3',

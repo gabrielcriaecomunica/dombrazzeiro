@@ -92,7 +92,7 @@ export function GallerySection() {
                     src={photo.src}
                     alt={photo.alt}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className={`h-full w-full object-cover ${photo.objectClass ?? 'object-center'} transition-transform duration-500 group-hover:scale-105`}
                   />
                 )}
                 <div
