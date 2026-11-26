@@ -30,7 +30,7 @@ export function FinalCtaSection() {
       '',
       `Nome: ${name.trim() || 'Não informado'}`,
       `Data do evento: ${formattedDate}`,
-      `Cidade (SC): ${city.trim() || 'A definir'}`,
+      `Cidade / Estado: ${city.trim() || 'A definir'}`,
       `Número de convidados: ${guests.trim() || 'A definir'}`,
       `Tipo de evento: ${eventType}`,
     ];
@@ -121,7 +121,7 @@ export function FinalCtaSection() {
                     htmlFor="cta-city"
                     className="mb-1.5 block font-label text-xs uppercase tracking-[0.18em] text-[#F2B33D]"
                   >
-                    Cidade em SC
+                    Cidade (SC, RS ou PR)
                   </label>
                   <input
                     id="cta-city"
@@ -129,7 +129,7 @@ export function FinalCtaSection() {
                     required
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
-                    placeholder="Ex.: Blumenau, Florianópolis..."
+                    placeholder="Ex.: Blumenau, Porto Alegre, Curitiba..."
                     className="w-full rounded-md border border-[#7A4524]/60 bg-[#2A1A12]/85 px-4 py-3 text-sm text-[#F5E6C8] placeholder:text-[#D8C4A4]/50 focus:border-[#E8661E] focus:outline-none"
                   />
                 </div>

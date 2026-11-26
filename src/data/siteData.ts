@@ -3,8 +3,8 @@ export const BRAND = {
   subtitle: 'Mestre Churrasqueiro',
   signature: 'O Dom da Brasa',
   masterName: 'Jossel Freitas',
-  region: 'Santa Catarina',
-  citiesStatus: '[PENDENTE: confirmar cidades atendidas em Santa Catarina]',
+  region: 'Santa Catarina, Rio Grande do Sul e Paraná',
+  citiesStatus: 'Atendimento em toda a Região Sul',
   instagramHandle: '@dom_brazzeiro',
   instagramUrl: 'https://www.instagram.com/dom_brazzeiro/',
   whatsappDisplay: '(47) 99776-7207',
@@ -99,7 +99,7 @@ export const HOW_IT_WORKS_STEPS = [
     step: '01',
     title: 'Você chama no WhatsApp',
     description:
-      'Envie uma mensagem contando a data prevista, a cidade em Santa Catarina e quantas pessoas você pretende receber.',
+      'Envie uma mensagem contando a data prevista, a cidade (SC, RS ou PR) e quantas pessoas você pretende receber.',
   },
   {
     step: '02',
@@ -271,9 +271,9 @@ export interface FaqItem {
 export const FAQ_ITEMS: FaqItem[] = [
   {
     id: 'faq-cidades',
-    question: 'Quais cidades vocês atendem?',
+    question: 'Quais estados e cidades vocês atendem?',
     answer:
-      'Atendemos eventos em Santa Catarina. [PENDENTE: confirmar lista de cidades e regiões atendidas pelo Dom Brazzeiro]. Entre em contato pelo WhatsApp informando o local da sua festa para confirmarmos a logística.',
+      'Atendemos eventos em Santa Catarina, Rio Grande do Sul e Paraná. Entre em contato pelo WhatsApp informando a cidade da sua festa para confirmarmos a logística e a disponibilidade de agenda.',
   },
   {
     id: 'faq-pessoas',

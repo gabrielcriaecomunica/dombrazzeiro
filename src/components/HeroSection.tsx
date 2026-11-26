@@ -57,7 +57,7 @@ export function HeroSection() {
           transition={{ duration: 0.55, delay: 0.08 }}
           className="font-label text-xs sm:text-sm uppercase tracking-[0.28em] text-[#F2B33D] mb-3"
         >
-          {BRAND.signature} · Santa Catarina
+          {BRAND.signature} · SC, RS e PR
         </motion.p>
 
         <motion.h1
@@ -76,9 +76,9 @@ export function HeroSection() {
           transition={{ duration: 0.65, delay: 0.22 }}
           className="mt-5 max-w-2xl text-base leading-relaxed text-[#F5E6C8]/90 sm:text-lg"
         >
-          Churrasco premium e costela fogo de chão para eventos em Santa Catarina.
-          Mestre churrasqueiro e buffet completo para você receber seus convidados
-          sem se preocupar com nada.
+          Churrasco premium e costela fogo de chão para eventos em Santa Catarina,
+          Rio Grande do Sul e Paraná. Mestre churrasqueiro e buffet completo para
+          você receber seus convidados sem se preocupar com nada.
         </motion.p>
 
         <motion.div

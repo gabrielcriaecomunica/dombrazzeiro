@@ -31,7 +31,7 @@ export function Footer() {
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#E8661E]" aria-hidden="true" />
               <div>
                 <p className="text-[#F5E6C8]">{BRAND.region}</p>
-                <p className="font-mono text-xs text-[#D8C4A4]/85">
+                <p className="mt-0.5 text-xs text-[#D8C4A4]/85">
                   {BRAND.citiesStatus}
                 </p>
               </div>

@@ -6,7 +6,7 @@ export function EventsSection() {
     <section id="eventos" className="relative bg-[#140F0C] py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="Ocasiões atendidas em Santa Catarina"
+          eyebrow="Ocasiões atendidas em SC, RS e PR"
           title="Para cada encontro, o fogo na"
           highlight="medida certa"
         />
