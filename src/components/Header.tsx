@@ -76,7 +76,7 @@ export function Header() {
         <div className="flex items-center gap-3">
           <a
             href={buildWhatsAppUrl(
-              'Olá! Gostaria de verificar a disponibilidade e garantir minha data com a Dom Brazzeiro.'
+              'Olá, Jossel! Gostaria de verificar a disponibilidade e garantir minha data com o Dom Brazzeiro.'
             )}
             target="_blank"
             rel="noopener noreferrer"
@@ -121,7 +121,7 @@ export function Header() {
               ))}
               <a
                 href={buildWhatsAppUrl(
-                  'Olá! Gostaria de verificar a disponibilidade e garantir minha data com a Dom Brazzeiro.'
+                  'Olá, Jossel! Gostaria de verificar a disponibilidade e garantir minha data com o Dom Brazzeiro.'
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

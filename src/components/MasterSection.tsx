@@ -13,7 +13,7 @@ export function MasterSection() {
           <div className="relative mx-auto max-w-md overflow-hidden rounded-2xl border border-[#7A4524]/60 bg-[#140F0C] shadow-[0_24px_55px_rgba(0,0,0,0.65)] aspect-[3/4]">
             <img
               src="/assets/images/mestre-jossel.webp"
-              alt="Jossel Freitas, mestre churrasqueiro da Dom Brazzeiro, com chapéu preto, camisa preta, avental de couro e luvas temperando corte de carne diante do fogo"
+              alt="Jossel Freitas, o Dom Brazzeiro, mestre churrasqueiro de chapéu preto, camisa preta, avental de couro e luvas temperando corte de carne diante do fogo"
               width={682}
               height={1024}
               loading="lazy"
@@ -48,16 +48,19 @@ export function MasterSection() {
           <EmberReveal delay={0.18}>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-[#D8C4A4] sm:text-lg">
               <p>
-                À frente da Dom Brazzeiro está <strong className="text-[#F5E6C8] font-semibold">Jossel Freitas</strong>.
-                Para ele, dominar a brasa nunca foi apenas acender carvão e assar
-                carne. É saber ler o tempo do fogo, respeitar cada corte e cuidar de
-                cada pessoa que se aproxima da bancada.
+                Quem dá vida ao <strong className="text-[#F5E6C8] font-semibold">Dom Brazzeiro</strong> é{' '}
+                <strong className="text-[#F5E6C8] font-semibold">Jossel Freitas</strong>. Mais do que o nome da
+                marca, o Dom Brazzeiro é ele mesmo à frente do fogo. Para Jossel,
+                dominar a brasa nunca foi apenas acender carvão e assar carne. É saber
+                ler o tempo da lenha, respeitar cada corte e cuidar de cada pessoa
+                que se aproxima da bancada.
               </p>
               <p>
-                De chapéu, camisa preta e luvas prontas, Jossel conduz o churrasco
-                como quem recebe em casa. Com postura firme, conversa leve e olho
-                atento em cada detalhe, ele transforma o momento do almoço ou jantar
-                em parte inesquecível da celebração.
+                De chapéu, camisa preta, avental de couro e luvas prontas, Jossel
+                conduz o churrasco como quem recebe em casa. Com postura firme,
+                conversa leve e olho atento em cada detalhe, ele e sua equipe
+                transformam o momento do almoço ou jantar em parte inesquecível da
+                celebração.
               </p>
             </div>
           </EmberReveal>

@@ -89,7 +89,7 @@ export function HeroSection() {
         >
           <a
             href={buildWhatsAppUrl(
-              'Olá! Vi a página da Dom Brazzeiro e quero pedir um orçamento personalizado para o meu evento.'
+              'Olá, Jossel! Vi a página do Dom Brazzeiro e quero pedir um orçamento personalizado para o meu evento.'
             )}
             target="_blank"
             rel="noopener noreferrer"

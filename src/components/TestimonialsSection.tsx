@@ -23,7 +23,7 @@ export function TestimonialsSection() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Prova social"
-          title="Quem já confiou a festa à"
+          title="Quem já confiou a festa ao"
           highlight="Dom Brazzeiro"
           description="Relatos reais de quem já viveu a experiência da nossa brasa e do nosso atendimento."
         />

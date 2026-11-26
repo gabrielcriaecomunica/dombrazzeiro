@@ -72,7 +72,7 @@ export function IncludedSection() {
         <EmberReveal delay={0.22} className="mt-10 flex justify-center">
           <a
             href={buildWhatsAppUrl(
-              'Olá! Vi tudo o que está incluído no serviço da Dom Brazzeiro e gostaria de pedir meu orçamento personalizado.'
+              'Olá, Jossel! Vi tudo o que está incluído no serviço do Dom Brazzeiro e gostaria de pedir meu orçamento personalizado.'
             )}
             target="_blank"
             rel="noopener noreferrer"

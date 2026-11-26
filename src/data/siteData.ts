@@ -15,7 +15,7 @@ export const BRAND = {
 
 export function buildWhatsAppUrl(customMessage?: string): string {
   const defaultMsg =
-    'Olá, equipe Dom Brazzeiro! Gostaria de pedir um orçamento personalizado para o meu evento.';
+    'Olá, Jossel (Dom Brazzeiro)! Gostaria de pedir um orçamento personalizado para o meu evento.';
   const text = encodeURIComponent(customMessage || defaultMsg);
   return `https://wa.me/${BRAND.whatsappNumber}?text=${text}`;
 }
@@ -48,7 +48,7 @@ export const INCLUDED_ITEMS: IncludedItem[] = [
     iconName: 'flame',
     title: 'Mestre churrasqueiro e equipe',
     description:
-      'Jossel Freitas e nossa equipe conduzem toda a brasa com postura impecável, atenção constante e simpatia com os convidados.',
+      'Jossel Freitas, o Dom Brazzeiro, e sua equipe conduzem toda a brasa com postura impecável, atenção constante e simpatia com os convidados.',
   },
   {
     id: 'selecao-carnes',
@@ -200,7 +200,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     id: 'gal-3',
     src: '/assets/images/galeria-buffet.webp',
-    alt: 'Jossel Freitas finalizando abacaxis assados no espeto para o buffet completo da Dom Brazzeiro',
+    alt: 'Jossel Freitas, o Dom Brazzeiro, finalizando abacaxis assados no espeto para o buffet completo',
     caption: 'Buffet completo com guarnições quentes e frias',
     aspectClass: 'aspect-[4/3] lg:aspect-auto lg:h-full',
     objectClass: 'object-[center_45%]',
@@ -273,7 +273,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'faq-cidades',
     question: 'Quais cidades vocês atendem?',
     answer:
-      'Atendemos eventos em Santa Catarina. [PENDENTE: confirmar lista de cidades e regiões atendidas pela Dom Brazzeiro]. Entre em contato pelo WhatsApp informando o local da sua festa para confirmarmos a logística.',
+      'Atendemos eventos em Santa Catarina. [PENDENTE: confirmar lista de cidades e regiões atendidas pelo Dom Brazzeiro]. Entre em contato pelo WhatsApp informando o local da sua festa para confirmarmos a logística.',
   },
   {
     id: 'faq-pessoas',

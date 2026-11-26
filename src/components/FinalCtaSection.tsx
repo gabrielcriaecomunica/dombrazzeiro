@@ -26,7 +26,7 @@ export function FinalCtaSection() {
       : 'A definir';
 
     const messageLines = [
-      'Olá, equipe Dom Brazzeiro! Gostaria de pedir um orçamento personalizado.',
+      'Olá, Jossel (Dom Brazzeiro)! Gostaria de pedir um orçamento personalizado.',
       '',
       `Nome: ${name.trim() || 'Não informado'}`,
       `Data do evento: ${formattedDate}`,
@@ -71,7 +71,7 @@ export function FinalCtaSection() {
             </p>
             <div className="mt-6 flex items-center gap-3 text-sm text-[#F2B33D]">
               <span className="h-2 w-2 rounded-full bg-[#E8661E]" aria-hidden="true" />
-              <span>Atendimento direto com nossa equipe pelo WhatsApp</span>
+              <span>Atendimento direto com Jossel e equipe pelo WhatsApp</span>
             </div>
           </EmberReveal>
 
