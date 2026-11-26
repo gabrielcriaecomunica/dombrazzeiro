@@ -9,7 +9,6 @@ export function EventsSection() {
           eyebrow="Ocasiões atendidas em Santa Catarina"
           title="Para cada encontro, o fogo na"
           highlight="medida certa"
-          description="Seja uma comemoração íntima no fim de semana ou um evento corporativo com toda a equipe, a gente adapta o ritmo e a estrutura."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
