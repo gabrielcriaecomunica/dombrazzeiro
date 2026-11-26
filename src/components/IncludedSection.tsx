@@ -11,7 +11,6 @@ import {
 import {
   buildWhatsAppUrl,
   INCLUDED_ITEMS,
-  INCLUDED_PENDING_NOTE,
   type IncludedItem,
 } from '../data/siteData';
 import { EmberReveal, SectionHeading } from './MotionPrimitives';
@@ -69,14 +68,6 @@ export function IncludedSection() {
             );
           })}
         </div>
-
-        <EmberReveal delay={0.18}>
-          <div className="mx-auto mt-8 max-w-2xl rounded-lg border border-dashed border-[#7A4524]/75 bg-[#140F0C]/70 px-4 py-3 text-center">
-            <p className="font-mono text-xs text-[#F2B33D]">
-              {INCLUDED_PENDING_NOTE}
-            </p>
-          </div>
-        </EmberReveal>
 
         <EmberReveal delay={0.22} className="mt-10 flex justify-center">
           <a

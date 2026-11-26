@@ -94,9 +94,6 @@ export const INCLUDED_ITEMS: IncludedItem[] = [
   },
 ];
 
-export const INCLUDED_PENDING_NOTE =
-  '[PENDENTE: confirmar lista definitiva de itens e variações de pacotes com o cliente]';
-
 export const HOW_IT_WORKS_STEPS = [
   {
     step: '01',
