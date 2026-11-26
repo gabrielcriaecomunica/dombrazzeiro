@@ -215,11 +215,11 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gal-5',
-    // Trocar por foto real de momento do evento com convidados
     src: '/assets/images/fogo-editorial.webp',
-    alt: 'Detalhe de costela bovina caramelizada sobre brasas acesas',
+    alt: 'Costela inteira dourada e crocante por fora servida suculenta sobre tábua de madeira artesanal',
     caption: 'Textura crocante por fora e suculência por dentro',
     aspectClass: 'aspect-[4/3] lg:aspect-auto lg:h-full',
+    objectClass: 'object-[center_52%]',
   },
 ];
 
