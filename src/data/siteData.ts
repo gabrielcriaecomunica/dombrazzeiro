@@ -217,11 +217,11 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gal-3',
-    // Trocar por foto real da mesa de buffet completo
     src: '/assets/images/galeria-buffet.webp',
-    alt: 'Mesa de buffet completo de churrasco com acompanhamentos em panelas de ferro e molhos artesanais',
+    alt: 'Jossel Freitas finalizando abacaxis assados no espeto para o buffet completo da Dom Brazzeiro',
     caption: 'Buffet completo com guarnições quentes e frias',
     aspectClass: 'aspect-[4/3] lg:aspect-auto lg:h-full',
+    objectClass: 'object-[center_45%]',
   },
   {
     id: 'gal-4',
