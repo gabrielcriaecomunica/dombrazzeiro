@@ -241,6 +241,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
 
 export interface TestimonialItem {
   id: string;
+  isPending?: boolean;
   status: string;
   quote: string;
   author: string;
@@ -250,14 +251,16 @@ export interface TestimonialItem {
 export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'dep-1',
-    status: '[DEPOIMENTO REAL PENDENTE]',
+    isPending: false,
+    status: 'Relato real via Instagram',
     quote:
-      '[DEPOIMENTO REAL PENDENTE: inserir relato verificado de cliente de evento social em Santa Catarina]',
-    author: '[NOME DO CLIENTE PENDENTE]',
-    eventInfo: '[TIPO DE EVENTO E CIDADE PENDENTE]',
+      'Não posso deixar de agradecer a parceria surreal do @dom_brazzeiro e da @isbellafreitas que, além de fazer a melhor carne que já comemos, moveram o mundo pra conseguir o melhor espaço para acontecer a festa surpresa.',
+    author: '@nicollegiovani',
+    eventInfo: 'Festa de aniversário surpresa',
   },
   {
     id: 'dep-2',
+    isPending: true,
     status: '[DEPOIMENTO REAL PENDENTE]',
     quote:
       '[DEPOIMENTO REAL PENDENTE: inserir relato verificado de cliente corporativo / RH sobre a entrega do evento]',
@@ -266,6 +269,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
   },
   {
     id: 'dep-3',
+    isPending: true,
     status: '[DEPOIMENTO REAL PENDENTE]',
     quote:
       '[DEPOIMENTO REAL PENDENTE: inserir relato verificado de casamento ou aniversário com costela fogo de chão]',
