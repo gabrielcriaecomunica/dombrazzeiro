@@ -1,4 +1,3 @@
-import { MessageCircle } from 'lucide-react';
 import { buildWhatsAppUrl } from '../data/siteData';
 
 export function FloatingWhatsApp() {
@@ -10,12 +9,20 @@ export function FloatingWhatsApp() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Falar com a Dom Brazzeiro no WhatsApp"
-      className="btn-ember-glow fixed bottom-5 right-5 z-40 inline-flex items-center gap-2.5 rounded-full border border-[#F2B33D]/55 bg-[#E8661E] px-4 py-3.5 text-[#140F0C] shadow-xl transition-all hover:scale-105 hover:bg-[#F2B33D] sm:px-5"
+      className="fixed bottom-5 right-5 z-40 inline-flex items-center justify-center rounded-full p-1 text-[#E8661E] drop-shadow-[0_6px_18px_rgba(232,102,30,0.48)] transition-all duration-200 hover:scale-110 hover:text-[#F2B33D]"
     >
-      <MessageCircle className="h-5 w-5 shrink-0" aria-hidden="true" />
-      <span className="hidden font-label text-xs font-semibold uppercase tracking-[0.16em] sm:inline">
-        WhatsApp
-      </span>
+      <svg
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        className="h-11 w-11 sm:h-12 sm:w-12"
+        aria-hidden="true"
+      >
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M12.031 2C6.51 2 2.02 6.49 2.02 12.011c0 1.763.461 3.484 1.337 5.002L2 22l5.107-1.339a9.97 9.97 0 0 0 4.924 1.298h.004c5.521 0 10.011-4.49 10.011-10.011C22.046 6.49 17.552 2 12.031 2Zm0 18.273h-.003a8.31 8.31 0 0 1-4.236-1.16l-.304-.18-3.03.794.809-2.954-.197-.314a8.288 8.288 0 0 1-1.273-4.446c0-4.588 3.733-8.321 8.324-8.321 2.223 0 4.312.866 5.884 2.439a8.268 8.268 0 0 1 2.437 5.884c0 4.59-3.734 8.322-8.324 8.322h-.087Zm4.565-6.233c-.25-.125-1.48-.73-1.71-.813-.229-.084-.396-.125-.563.125-.167.25-.646.813-.792.98-.146.167-.292.188-.542.063-.25-.125-1.056-.389-2.011-1.241-.743-.663-1.245-1.482-1.391-1.732-.146-.25-.016-.385.11-.51.112-.112.25-.292.375-.438.125-.146.167-.25.25-.417.083-.167.042-.313-.021-.438-.063-.125-.563-1.355-.771-1.856-.203-.488-.41-.422-.563-.43-.145-.007-.312-.009-.479-.009-.167 0-.438.063-.667.313-.229.25-.875.855-.875 2.085s.896 2.418 1.021 2.585c.125.167 1.763 2.692 4.272 3.775.597.258 1.063.412 1.426.527.599.19 1.144.163 1.575.099.481-.072 1.48-.605 1.688-1.189.208-.584.208-1.084.146-1.189-.063-.104-.229-.167-.479-.292Z"
+        />
+      </svg>
     </a>
   );
 }
