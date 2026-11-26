@@ -1,5 +1,4 @@
 import { motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
-import { Flame } from 'lucide-react';
 import { useRef } from 'react';
 import { EmberReveal } from './MotionPrimitives';
 
@@ -34,12 +33,6 @@ export function FogoDeChaoSection() {
               aria-hidden="true"
               className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#140F0C]/80 via-transparent to-[#140F0C]/20"
             />
-            <div className="absolute bottom-4 left-4 right-4 flex items-center gap-2.5 rounded-lg border border-[#7A4524]/60 bg-[#140F0C]/85 px-4 py-2.5 backdrop-blur-sm sm:bottom-6 sm:left-6 sm:right-auto">
-              <Flame className="h-4 w-4 text-[#E8661E] shrink-0" aria-hidden="true" />
-              <span className="font-label text-xs uppercase tracking-[0.2em] text-[#F5E6C8]">
-                Produto assinatura da casa
-              </span>
-            </div>
           </div>
         </EmberReveal>
 
@@ -68,27 +61,6 @@ export function FogoDeChaoSection() {
                 evento inteiro.
               </p>
             </div>
-          </EmberReveal>
-
-          <EmberReveal delay={0.25}>
-            <dl className="mt-8 grid grid-cols-2 gap-4 border-t border-[#7A4524]/45 pt-6">
-              <div>
-                <dt className="font-label text-xs uppercase tracking-[0.2em] text-[#F2B33D]">
-                  Técnica
-                </dt>
-                <dd className="mt-1 font-display text-xl text-[#F5E6C8]">
-                  Calor de lenha real
-                </dd>
-              </div>
-              <div>
-                <dt className="font-label text-xs uppercase tracking-[0.2em] text-[#F2B33D]">
-                  Resultado
-                </dt>
-                <dd className="mt-1 font-display text-xl text-[#F5E6C8]">
-                  Maciez extrema no corte
-                </dd>
-              </div>
-            </dl>
           </EmberReveal>
         </div>
       </div>
