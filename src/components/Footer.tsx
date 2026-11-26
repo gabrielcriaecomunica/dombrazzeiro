@@ -1,5 +1,6 @@
-import { Instagram, MapPin, MessageCircle } from 'lucide-react';
+import { Instagram, MapPin } from 'lucide-react';
 import { BRAND, buildWhatsAppUrl } from '../data/siteData';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 const CURRENT_YEAR = new Date().getFullYear();
 
@@ -67,10 +68,11 @@ export function Footer() {
               href={buildWhatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`WhatsApp ${BRAND.whatsappDisplay}`}
               className="inline-flex items-center gap-2 text-sm text-[#F5E6C8] transition-colors hover:text-[#F2B33D]"
             >
-              <MessageCircle className="h-4 w-4 text-[#E8661E]" aria-hidden="true" />
-              <span>WhatsApp {BRAND.whatsappDisplay}</span>
+              <WhatsAppIcon className="h-4 w-4 shrink-0 text-[#E8661E]" />
+              <span>{BRAND.whatsappDisplay}</span>
             </a>
           </div>
         </div>
