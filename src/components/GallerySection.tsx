@@ -41,7 +41,10 @@ export function GallerySection() {
   const activePhoto = selectedIndex !== null ? GALLERY_PHOTOS[selectedIndex] : null;
 
   return (
-    <section id="galeria" className="relative bg-[#140F0C] py-20 sm:py-24">
+    <section
+      id="galeria"
+      className="relative border-t border-[#7A4524]/35 bg-[#140F0C] py-20 sm:py-24 smoke-surface"
+    >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Bastidores do fogo e da mesa"

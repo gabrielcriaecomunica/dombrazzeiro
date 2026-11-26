@@ -6,7 +6,7 @@ export function MasterSection() {
   return (
     <section
       id="o-mestre"
-      className="relative border-t border-[#7A4524]/35 bg-[#2A1A12]/50 py-20 sm:py-24"
+      className="relative bg-[#140F0C] py-20 sm:py-24 smoke-surface"
     >
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:px-8">
         <EmberReveal className="lg:col-span-5">

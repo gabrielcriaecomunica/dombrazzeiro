@@ -9,7 +9,6 @@ import { GallerySection } from './components/GallerySection';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { HowItWorksSection } from './components/HowItWorksSection';
-import { IdentificationSection } from './components/IdentificationSection';
 import { IncludedSection } from './components/IncludedSection';
 import { MasterSection } from './components/MasterSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
@@ -31,12 +30,11 @@ export function App() {
         <main id="conteudo-principal">
           <HeroSection />
           <TrustBar />
-          <IdentificationSection />
+          <MasterSection />
           <IncludedSection />
           <FogoDeChaoSection />
           <HowItWorksSection />
           <EventsSection />
-          <MasterSection />
           <GallerySection />
           <TestimonialsSection />
           <FaqSection />
