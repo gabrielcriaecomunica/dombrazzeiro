@@ -190,6 +190,7 @@ export const EVENT_TYPES: EventCardData[] = [
 export interface GalleryPhoto {
   id: string;
   src: string;
+  videoSrc?: string;
   alt: string;
   caption: string;
   aspectClass: string;
@@ -199,9 +200,9 @@ export interface GalleryPhoto {
 export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     id: 'gal-1',
-    // Trocar por foto real de costela fogo de chão em evento
-    src: '/assets/images/hero-costela.webp',
-    alt: 'Costelas inteiras assando no fogo de chão em estacas de ferro ao redor da brasa',
+    src: '/assets/images/costela-fogo-de-chao-poster.webp',
+    videoSrc: '/assets/videos/costela-fogo-de-chao.mp4',
+    alt: 'Costelas inteiras assando lentamente na lenha no fogo de chão',
     caption: 'Costela fogo de chão assada lentamente na lenha',
     aspectClass: 'sm:col-span-2 lg:col-span-2 lg:row-span-2 aspect-[16/10] lg:aspect-auto lg:h-full',
   },

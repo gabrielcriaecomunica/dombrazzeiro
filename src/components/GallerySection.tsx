@@ -69,15 +69,33 @@ export function GallerySection() {
               <button
                 type="button"
                 onClick={() => setSelectedIndex(idx)}
-                aria-label={`Ampliar foto: ${photo.caption}`}
+                aria-label={
+                  photo.videoSrc
+                    ? `Ampliar vídeo: ${photo.caption}`
+                    : `Ampliar foto: ${photo.caption}`
+                }
                 className="group relative h-full w-full overflow-hidden rounded-xl border border-[#7A4524]/45 bg-[#2A1A12] text-left focus-visible:ring-2 focus-visible:ring-[#F2B33D]"
               >
-                <img
-                  src={photo.src}
-                  alt={photo.alt}
-                  loading="lazy"
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
+                {photo.videoSrc ? (
+                  <video
+                    src={photo.videoSrc}
+                    poster={photo.src}
+                    autoPlay={!prefersReducedMotion}
+                    loop
+                    muted
+                    playsInline
+                    preload="metadata"
+                    aria-label={photo.alt}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <img
+                    src={photo.src}
+                    alt={photo.alt}
+                    loading="lazy"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                )}
                 <div
                   aria-hidden="true"
                   className="absolute inset-0 bg-gradient-to-t from-[#140F0C]/90 via-[#140F0C]/15 to-transparent opacity-80 transition-opacity group-hover:opacity-95"
@@ -128,11 +146,25 @@ export function GallerySection() {
               </div>
 
               <div className="relative flex flex-1 items-center justify-center bg-[#140F0C]">
-                <img
-                  src={activePhoto.src}
-                  alt={activePhoto.alt}
-                  className="max-h-[72vh] w-auto max-w-full object-contain"
-                />
+                {activePhoto.videoSrc ? (
+                  <video
+                    src={activePhoto.videoSrc}
+                    poster={activePhoto.src}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    controls
+                    aria-label={activePhoto.alt}
+                    className="max-h-[72vh] w-auto max-w-full object-contain"
+                  />
+                ) : (
+                  <img
+                    src={activePhoto.src}
+                    alt={activePhoto.alt}
+                    className="max-h-[72vh] w-auto max-w-full object-contain"
+                  />
+                )}
 
                 <button
                   type="button"
