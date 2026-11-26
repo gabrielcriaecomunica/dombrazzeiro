@@ -50,7 +50,6 @@ export function GallerySection() {
           eyebrow="Bastidores do fogo e da mesa"
           title="O sabor começa antes do"
           highlight="primeiro corte"
-          description="Registros de fogo de chão, cortes selecionados e mesas montadas. Toque em qualquer imagem para ampliar."
         />
 
         {/*
