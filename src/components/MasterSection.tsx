@@ -10,13 +10,12 @@ export function MasterSection() {
     >
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:px-8">
         <EmberReveal className="lg:col-span-5">
-          {/* Comentário de manutenção: substituir public/assets/images/mestre-jossel.webp por foto real de Jossel Freitas quando disponível */}
           <div className="relative mx-auto max-w-md overflow-hidden rounded-2xl border border-[#7A4524]/60 bg-[#140F0C] shadow-[0_24px_55px_rgba(0,0,0,0.65)] aspect-[3/4]">
             <img
               src="/assets/images/mestre-jossel.webp"
-              alt="Jossel Freitas, mestre churrasqueiro da Dom Brazzeiro, com chapéu e camisa preta junto à brasa"
-              width={1000}
-              height={1333}
+              alt="Jossel Freitas, mestre churrasqueiro da Dom Brazzeiro, com chapéu preto, camisa preta, avental de couro e luvas temperando corte de carne diante do fogo"
+              width={682}
+              height={1024}
               loading="lazy"
               className="h-full w-full object-cover object-top"
             />
