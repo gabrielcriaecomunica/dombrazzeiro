@@ -225,11 +225,11 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gal-4',
-    // Trocar por foto real da brasa e preparo do mestre
     src: '/assets/images/galeria-brasa.webp',
-    alt: 'Brasa intensa de carvão e lenha com faíscas subindo sob espetos de ferro',
+    alt: 'Jossel Freitas conduzindo o fogo de lenha e a brasa diante de costelas e abacaxis assando ao ar livre',
     caption: 'Controle preciso de temperatura e brasa viva',
     aspectClass: 'aspect-[4/3] lg:aspect-auto lg:h-full',
+    objectClass: 'object-[center_52%]',
   },
   {
     id: 'gal-5',
