@@ -1,5 +1,5 @@
 import { BadgeCheck, Building2, Flame, ShieldCheck } from 'lucide-react';
-import { BRAND, TRUST_COUNTERS } from '../data/siteData';
+import { BRAND } from '../data/siteData';
 import { EmberReveal } from './MotionPrimitives';
 
 const TRUST_PILLARS = [
@@ -55,27 +55,6 @@ export function TrustBar() {
               </EmberReveal>
             );
           })}
-        </div>
-
-        {/* Contadores preparados para números reais confirmados */}
-        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
-          {TRUST_COUNTERS.map((counter, idx) => (
-            <EmberReveal
-              key={counter.id}
-              delay={0.18 + idx * 0.08}
-              className="flex flex-col justify-between gap-2 rounded-lg border border-dashed border-[#7A4524]/70 bg-[#140F0C]/75 px-5 py-4 sm:flex-row sm:items-center"
-            >
-              <div>
-                <p className="font-label text-xs uppercase tracking-[0.2em] text-[#F2B33D]">
-                  {counter.label}
-                </p>
-                <p className="mt-1 text-xs text-[#D8C4A4]">{counter.detail}</p>
-              </div>
-              <span className="inline-flex items-center rounded border border-[#E8661E]/50 bg-[#2A1A12] px-3 py-1.5 font-mono text-xs text-[#F5E6C8]">
-                {counter.pendingLabel}
-              </span>
-            </EmberReveal>
-          ))}
         </div>
       </div>
     </section>

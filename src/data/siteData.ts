@@ -28,21 +28,6 @@ export const NAV_LINKS = [
   { label: 'Dúvidas', href: '#duvidas' },
 ] as const;
 
-export const TRUST_COUNTERS = [
-  {
-    id: 'events',
-    label: 'Eventos realizados',
-    pendingLabel: '[PENDENTE: número de eventos realizados]',
-    detail: 'Atendimento em celebrações sociais e corporativas',
-  },
-  {
-    id: 'guests',
-    label: 'Convidados servidos',
-    pendingLabel: '[PENDENTE: número de convidados servidos]',
-    detail: 'Experiência pensada do primeiro corte ao último prato',
-  },
-] as const;
-
 export interface IncludedItem {
   id: string;
   iconName:
