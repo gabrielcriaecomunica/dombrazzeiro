@@ -50,6 +50,7 @@ export function GallerySection() {
           eyebrow="Bastidores do fogo e da mesa"
           title="O sabor começa antes do"
           highlight="primeiro corte"
+          breakHighlight
         />
 
         {/*

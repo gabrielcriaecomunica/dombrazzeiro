@@ -41,6 +41,7 @@ interface SectionHeadingProps {
   eyebrow: string;
   title: string;
   highlight?: string;
+  breakHighlight?: boolean;
   description?: string;
   align?: 'center' | 'left';
 }
@@ -49,6 +50,7 @@ export function SectionHeading({
   eyebrow,
   title,
   highlight,
+  breakHighlight = false,
   description,
   align = 'center',
 }: SectionHeadingProps) {
@@ -68,7 +70,13 @@ export function SectionHeading({
       <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl leading-[1.12] text-[#F5E6C8]">
         {title}{' '}
         {highlight ? (
-          <span className="brand-gradient-text">{highlight}</span>
+          <span
+            className={
+              breakHighlight ? 'brand-gradient-text mt-1 block' : 'brand-gradient-text'
+            }
+          >
+            {highlight}
+          </span>
         ) : null}
       </h2>
 
