@@ -37,7 +37,6 @@ export function IncludedSection() {
           eyebrow="Entrega completa de ponta a ponta"
           title="Tudo o que está incluído no"
           highlight="nosso serviço"
-          description="Antes de falar de valores, queremos que você enxergue o que garante a tranquilidade do seu evento. A gente leva equipe, estrutura, carnes selecionadas e buffet completo."
         />
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
