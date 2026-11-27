@@ -36,6 +36,7 @@ export function IncludedSection() {
           eyebrow="Entrega completa de ponta a ponta"
           title="Tudo o que está incluído no"
           highlight="nosso serviço"
+          breakHighlight
         />
 
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
