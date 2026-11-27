@@ -116,8 +116,8 @@ export function FinalCtaSection() {
             Orçamento sob medida
           </span>
           <h2 className="mt-3 font-display text-3xl leading-[1.1] text-[#F5E6C8] sm:text-5xl lg:text-6xl drop-shadow-[0_4px_20px_rgba(0,0,0,0.65)]">
-            Seu evento merece o{' '}
-            <span className="brand-gradient-text">Dom da Brasa.</span>
+            Seu evento merece o
+            <span className="brand-gradient-text mt-1 block">Dom da Brasa.</span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-[#F5E6C8]/92 sm:text-lg">
             Chame no WhatsApp, conte a data, a cidade e quantas pessoas você
