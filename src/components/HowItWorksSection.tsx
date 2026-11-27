@@ -12,6 +12,7 @@ export function HowItWorksSection() {
           eyebrow="Sem complicação do começo ao fim"
           title="Como funciona do primeiro"
           highlight="contato à festa"
+          breakHighlight
         />
 
         <div className="relative mt-14">
