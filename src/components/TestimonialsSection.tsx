@@ -25,6 +25,7 @@ export function TestimonialsSection() {
           eyebrow="Prova social"
           title="Quem já confiou a festa ao"
           highlight="Dom Brazzeiro"
+          breakHighlight
           description="Relatos reais de quem já viveu a experiência da nossa brasa e do nosso atendimento."
         />
 
