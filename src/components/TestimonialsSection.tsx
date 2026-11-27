@@ -2,6 +2,7 @@ import { ChevronLeft, ChevronRight, Instagram, Quote } from 'lucide-react';
 import { useState } from 'react';
 import { TESTIMONIALS } from '../data/siteData';
 import { EmberReveal, SectionHeading } from './MotionPrimitives';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 export function TestimonialsSection() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -44,7 +45,11 @@ export function TestimonialsSection() {
                 </span>
               ) : (
                 <span className="inline-flex items-center gap-2 rounded-full border border-[#7A4524]/60 bg-[#2A1A12] px-3.5 py-1 font-label text-xs uppercase tracking-[0.16em] text-[#F2B33D]">
-                  <Instagram className="h-3.5 w-3.5 text-[#E8661E]" aria-hidden="true" />
+                  {current.channel === 'whatsapp' ? (
+                    <WhatsAppIcon className="h-3.5 w-3.5 text-[#E8661E]" />
+                  ) : (
+                    <Instagram className="h-3.5 w-3.5 text-[#E8661E]" aria-hidden="true" />
+                  )}
                   <span>{current.status}</span>
                 </span>
               )}

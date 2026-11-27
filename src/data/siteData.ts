@@ -208,6 +208,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
 export interface TestimonialItem {
   id: string;
   isPending?: boolean;
+  channel?: 'instagram' | 'whatsapp';
   status: string;
   quote: string;
   author: string;
@@ -218,6 +219,7 @@ export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: 'dep-1',
     isPending: false,
+    channel: 'instagram',
     status: 'Relato real via Instagram',
     quote:
       'Não posso deixar de agradecer a parceria surreal do @dom_brazzeiro e da @isbellafreitas que, além de fazer a melhor carne que já comemos, moveram o mundo pra conseguir o melhor espaço para acontecer a festa surpresa.',
@@ -226,12 +228,13 @@ export const TESTIMONIALS: TestimonialItem[] = [
   },
   {
     id: 'dep-2',
-    isPending: true,
-    status: '[DEPOIMENTO REAL PENDENTE]',
+    isPending: false,
+    channel: 'whatsapp',
+    status: 'Relato real via WhatsApp',
     quote:
-      '[DEPOIMENTO REAL PENDENTE: inserir relato verificado de cliente corporativo / RH sobre a entrega do evento]',
-    author: '[NOME DO CLIENTE PENDENTE]',
-    eventInfo: '[EMPRESA E CIDADE PENDENTE]',
+      'Amamos o serviço! Foi tudo muito bom, desde o atendimento até o churrasco. Tudo estava delicioso, feito com muito capricho e cuidado. Nossos convidados também elogiaram bastante! Ficamos muito felizes com a escolha e com o resultado. Com certeza recomendamos o Dom Brazzeiro! Obrigada por fazer parte de um dia tão especial para nós! ❤️',
+    author: 'Gabriela Contaifer',
+    eventInfo: 'Evento atendido pelo Dom Brazzeiro',
   },
   {
     id: 'dep-3',
