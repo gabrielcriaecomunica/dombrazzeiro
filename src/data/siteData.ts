@@ -291,6 +291,6 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'faq-orcamento',
     question: 'Como faço o orçamento?',
     answer:
-      'É simples e rápido. Você preenche o formulário aqui na página ou chama direto no nosso WhatsApp (47) 99776-7207 informando data, cidade, número estimado de convidados e tipo de evento. A gente analisa sua necessidade e envia uma proposta personalizada sob medida.',
+      'É simples e rápido. Você chama direto no nosso WhatsApp (47) 99776-7207 informando data, cidade, número estimado de convidados e tipo de evento. A gente analisa sua necessidade e envia uma proposta personalizada sob medida.',
   },
 ];
