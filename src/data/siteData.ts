@@ -34,7 +34,6 @@ export interface IncludedItem {
     | 'flame'
     | 'utensils'
     | 'beef'
-    | 'sparkles'
     | 'wrench'
     | 'clock'
     | 'clipboard';
@@ -56,13 +55,6 @@ export const INCLUDED_ITEMS: IncludedItem[] = [
     title: 'Seleção e preparo das carnes',
     description:
       'A gente escolhe cortes de procedência selecionada, faz o tempero na medida certa e entrega cada ponto no tempo exato.',
-  },
-  {
-    id: 'costela-fogo-chao',
-    iconName: 'sparkles',
-    title: 'Costela fogo de chão',
-    description:
-      'Nosso carro-chefe assado por horas em fogo lento de lenha, com casca dourada e carne que se desmancha ao toque do garfo.',
   },
   {
     id: 'buffet-completo',

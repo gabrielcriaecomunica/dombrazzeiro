@@ -3,8 +3,6 @@ import {
   ClipboardList,
   Clock,
   Flame,
-  MessageCircle,
-  Sparkles,
   UtensilsCrossed,
   Wrench,
 } from 'lucide-react';
@@ -14,11 +12,11 @@ import {
   type IncludedItem,
 } from '../data/siteData';
 import { EmberReveal, SectionHeading } from './MotionPrimitives';
+import { WhatsAppIcon } from './WhatsAppIcon';
 
 const ICON_MAP: Record<IncludedItem['iconName'], typeof Flame> = {
   flame: Flame,
   beef: Beef,
-  sparkles: Sparkles,
   utensils: UtensilsCrossed,
   wrench: Wrench,
   clock: Clock,
@@ -42,18 +40,9 @@ export function IncludedSection() {
         <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {INCLUDED_ITEMS.map((item, index) => {
             const Icon = ICON_MAP[item.iconName];
-            const isLastCentered = index === INCLUDED_ITEMS.length - 1;
 
             return (
-              <EmberReveal
-                key={item.id}
-                delay={index * 0.05}
-                className={
-                  isLastCentered
-                    ? 'sm:col-span-2 lg:col-span-1 lg:col-start-2'
-                    : ''
-                }
-              >
+              <EmberReveal key={item.id} delay={index * 0.05}>
                 <article className="group flex h-full flex-col rounded-xl border border-[#7A4524]/50 bg-[#2A1A12]/80 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#E8661E]/75 hover:shadow-[0_14px_34px_-12px_rgba(232,102,30,0.35)]">
                   <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg border border-[#F2B33D]/35 bg-[#140F0C] text-[#F2B33D] transition-colors group-hover:border-[#F2B33D] group-hover:bg-[#E8661E]/15">
                     <Icon className="h-6 w-6" strokeWidth={1.5} aria-hidden="true" />
@@ -83,7 +72,7 @@ export function IncludedSection() {
               aria-hidden="true"
               className="brand-gradient-bar absolute inset-x-0 bottom-0 h-1 opacity-85"
             />
-            <MessageCircle className="h-4 w-4 shrink-0" aria-hidden="true" />
+            <WhatsAppIcon className="h-4 w-4 shrink-0" />
             <span>Peça seu orçamento personalizado</span>
           </a>
         </EmberReveal>
