@@ -19,7 +19,6 @@ export function FaqSection() {
           eyebrow="Dúvidas frequentes"
           title="Tudo explicado com"
           highlight="transparência"
-          description="Respostas diretas para você planejar seu evento com segurança. Se restar qualquer pergunta, chamamos você no WhatsApp."
         />
 
         <div className="mt-12 space-y-3.5">
