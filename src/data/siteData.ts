@@ -279,7 +279,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'faq-pessoas',
     question: 'Para quantas pessoas vocês atendem?',
     answer:
-      'Atendemos desde encontros intimistas em família até grandes confraternizações corporativas e casamentos. [PENDENTE: confirmar quantidade mínima e máxima de convidados por formato de evento].',
+      'Atendemos eventos de todos os tamanhos, de encontros pequenos até celebrações com 1.500 pessoas. Não importa o tamanho da sua festa, o Dom Brazzeiro está pronto para receber todo mundo.',
   },
   {
     id: 'faq-inclui',
