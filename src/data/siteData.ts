@@ -282,22 +282,10 @@ export const FAQ_ITEMS: FaqItem[] = [
       'Atendemos eventos de todos os tamanhos, de encontros pequenos até celebrações com 1.500 pessoas. Não importa o tamanho da sua festa, o Dom Brazzeiro está pronto para receber todo mundo.',
   },
   {
-    id: 'faq-inclui',
-    question: 'O que está incluído no serviço?',
-    answer:
-      'Nossa proposta contempla mestre churrasqueiro, equipe de apoio, seleção e preparo das carnes, costela fogo de chão, buffet completo, montagem da estrutura e serviço durante todo o evento. [PENDENTE: confirmar itens detalhados de cada pacote, bebidas e descartáveis/louças].',
-  },
-  {
     id: 'faq-antecedencia',
     question: 'Com quanto tempo de antecedência devo reservar?',
     answer:
       'Se a data estiver livre, conseguimos atender até de um dia para o outro. Mas recomendamos reservar com antecedência para garantir sua data, porque nossa agenda costuma ficar cheia.',
-  },
-  {
-    id: 'faq-nota-fiscal',
-    question: 'Vocês emitem nota fiscal?',
-    answer:
-      '[PENDENTE: confirmar emissão de nota fiscal para pessoas físicas e empresas / prazos de faturamento corporativo].',
   },
   {
     id: 'faq-orcamento',
