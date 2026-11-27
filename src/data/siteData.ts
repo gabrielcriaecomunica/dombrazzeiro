@@ -291,7 +291,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'faq-antecedencia',
     question: 'Com quanto tempo de antecedência devo reservar?',
     answer:
-      'Recomendamos reservar assim que você tiver a data e o local definidos, especialmente para fins de semana e fim de ano. [PENDENTE: confirmar prazo mínimo ideal de antecedência em dias ou semanas].',
+      'Se a data estiver livre, conseguimos atender até de um dia para o outro. Mas recomendamos reservar com antecedência para garantir sua data, porque nossa agenda costuma ficar cheia.',
   },
   {
     id: 'faq-nota-fiscal',
