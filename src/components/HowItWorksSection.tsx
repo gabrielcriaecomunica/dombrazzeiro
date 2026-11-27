@@ -12,7 +12,6 @@ export function HowItWorksSection() {
           eyebrow="Sem complicação do começo ao fim"
           title="Como funciona do primeiro"
           highlight="contato à festa"
-          description="Organizar o churrasco do seu evento com a gente segue um caminho claro, rápido e sem surpresas."
         />
 
         <div className="relative mt-14">
