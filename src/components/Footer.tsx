@@ -66,7 +66,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-[#7A4524]/30 pt-6 text-xs text-[#D8C4A4]/75 sm:flex-row">
           <p>
-            © {CURRENT_YEAR} {BRAND.name} | {BRAND.subtitle}. Todos os
+            © {CURRENT_YEAR} por Cria e Comunica para {BRAND.name}. Todos os
             direitos reservados.
           </p>
           <p>
