@@ -117,8 +117,6 @@ export interface EventCardData {
   id: string;
   title: string;
   microtext: string;
-  image: string;
-  alt: string;
   tag: string;
 }
 
@@ -129,8 +127,6 @@ export const EVENT_TYPES: EventCardData[] = [
     tag: 'Celebrações em casa ou sítio',
     microtext:
       'Para você curtir cada abraço e foto ao lado de quem ama, sem passar o dia inteiro preso à churrasqueira.',
-    image: '/assets/images/evento-aniversario.webp',
-    alt: 'Convidados brindando ao ar livre em festa de aniversário com churrasco servido em tábua rústica',
   },
   {
     id: 'casamentos',
@@ -138,8 +134,6 @@ export const EVENT_TYPES: EventCardData[] = [
     tag: 'Recepções memoráveis',
     microtext:
       'O charme do fogo de chão ao ar livre unido a um serviço elegante, pontual e inesquecível para os noivos e convidados.',
-    image: '/assets/images/evento-casamento.webp',
-    alt: 'Recepção de casamento ao entardecer com estação de fogo de chão e mesas iluminadas por luzes quentes',
   },
   {
     id: 'encontros-familia',
@@ -147,8 +141,6 @@ export const EVENT_TYPES: EventCardData[] = [
     tag: 'Domingo sem trabalho na cozinha',
     microtext:
       'Reúna pais, filhos e amigos em torno da mesa farta enquanto a gente cuida da brasa e do serviço completo.',
-    image: '/assets/images/evento-familia.webp',
-    alt: 'Família reunida em mesa rústica à noite saboreando cortes assados na brasa com iluminação acolhedora',
   },
   {
     id: 'confraternizacoes',
@@ -156,8 +148,6 @@ export const EVENT_TYPES: EventCardData[] = [
     tag: 'Eventos corporativos',
     microtext:
       'Organização previsível, atendimento pontual e padrão alto para quem precisa contratar com tranquilidade total.',
-    image: '/assets/images/evento-corporativo.webp',
-    alt: 'Evento corporativo ao entardecer com equipe aproveitando churrasco gourmet ao redor do fogo',
   },
 ];
 
