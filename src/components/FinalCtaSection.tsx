@@ -5,22 +5,30 @@ import { WhatsAppIcon } from './WhatsAppIcon';
 const DIAGONAL_SLICES = [
   {
     src: '/assets/images/galeria-buffet.webp',
-    clipPath: 'polygon(0% 0%, 29% 0%, 21% 100%, 0% 100%)',
+    left: '0%',
+    width: '29%',
+    clipPath: 'polygon(0% 0%, 100% 0%, 72.41% 100%, 0% 100%)',
     objectClass: 'object-[center_35%]',
   },
   {
     src: '/assets/images/galeria-cortes.webp',
-    clipPath: 'polygon(29% 0%, 54% 0%, 46% 100%, 21% 100%)',
+    left: '21%',
+    width: '33%',
+    clipPath: 'polygon(24.24% 0%, 100% 0%, 75.76% 100%, 0% 100%)',
     objectClass: 'object-[center_32%]',
   },
   {
     src: '/assets/images/cta-bg-4.webp',
-    clipPath: 'polygon(54% 0%, 79% 0%, 71% 100%, 46% 100%)',
-    objectClass: 'object-[55%_42%]',
+    left: '46%',
+    width: '33%',
+    clipPath: 'polygon(24.24% 0%, 100% 0%, 75.76% 100%, 0% 100%)',
+    objectClass: 'object-[54%_40%]',
   },
   {
     src: '/assets/images/mestre-jossel.webp',
-    clipPath: 'polygon(79% 0%, 100% 0%, 100% 100%, 71% 100%)',
+    left: '71%',
+    width: '29%',
+    clipPath: 'polygon(27.59% 0%, 100% 0%, 100% 100%, 0% 100%)',
     objectClass: 'object-[center_28%]',
   },
 ] as const;
@@ -36,8 +44,12 @@ export function FinalCtaSection() {
         {DIAGONAL_SLICES.map((slice) => (
           <div
             key={slice.src}
-            style={{ clipPath: slice.clipPath }}
-            className="absolute inset-0 overflow-hidden"
+            style={{
+              left: slice.left,
+              width: slice.width,
+              clipPath: slice.clipPath,
+            }}
+            className="absolute inset-y-0 overflow-hidden"
           >
             <img
               src={slice.src}
