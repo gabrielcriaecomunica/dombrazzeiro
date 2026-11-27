@@ -31,11 +31,11 @@ export function App() {
           <HeroSection />
           <TrustBar />
           <MasterSection />
-          <IncludedSection />
+          <GallerySection />
           <FogoDeChaoSection />
           <HowItWorksSection />
           <EventsSection />
-          <GallerySection />
+          <IncludedSection />
           <TestimonialsSection />
           <FaqSection />
           <FinalCtaSection />

@@ -29,7 +29,7 @@ export function IncludedSection() {
   return (
     <section
       id="o-que-inclui"
-      className="relative border-t border-[#7A4524]/35 bg-[#2A1A12]/55 py-20 sm:py-24"
+      className="relative border-t border-[#7A4524]/35 bg-[#140F0C] py-20 sm:py-24 smoke-surface"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
@@ -53,8 +53,8 @@ export function IncludedSection() {
                     : ''
                 }
               >
-                <article className="group flex h-full flex-col rounded-xl border border-[#7A4524]/50 bg-[#140F0C]/90 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#E8661E]/75 hover:shadow-[0_14px_34px_-12px_rgba(232,102,30,0.35)]">
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg border border-[#F2B33D]/35 bg-[#2A1A12] text-[#F2B33D] transition-colors group-hover:border-[#F2B33D] group-hover:bg-[#E8661E]/15">
+                <article className="group flex h-full flex-col rounded-xl border border-[#7A4524]/50 bg-[#2A1A12]/80 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#E8661E]/75 hover:shadow-[0_14px_34px_-12px_rgba(232,102,30,0.35)]">
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg border border-[#F2B33D]/35 bg-[#140F0C] text-[#F2B33D] transition-colors group-hover:border-[#F2B33D] group-hover:bg-[#E8661E]/15">
                     <Icon className="h-6 w-6" strokeWidth={1.5} aria-hidden="true" />
                   </div>
                   <h3 className="font-display text-xl text-[#F5E6C8] sm:text-2xl">

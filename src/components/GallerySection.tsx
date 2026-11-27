@@ -43,7 +43,7 @@ export function GallerySection() {
   return (
     <section
       id="galeria"
-      className="relative border-t border-[#7A4524]/35 bg-[#140F0C] py-20 sm:py-24 smoke-surface"
+      className="relative border-t border-[#7A4524]/35 bg-[#2A1A12]/55 py-20 sm:py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
